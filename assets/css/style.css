@@ -1,0 +1,99 @@
+body {
+    font-family: 
+}
+
+
+.outerContainer {
+    height: 54rem;
+    width: 80rem; 
+    border : 1px solid red;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+header {
+    height: 3rem;
+    width: 20rem;
+    border: 1px solid orange;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.instructionContainer {
+    height: 15rem;
+    width: 30rem;
+    border: 1px solid blue;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.goalBox {
+    float:left;
+    height: 5rem;
+    width: 15rem;
+    border: 1px solid green;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.winLossBox {
+    float: left;
+    height: 5rem;
+    width: 5rem;
+    border: 1px solid purple;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+.buttonContainer{
+    clear:both;
+    border: 1px solid pink;
+    margin-top: 2rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding
+}
+
+.yourScoreIs {
+    height: 2rem;
+    width: 15rem;
+    padding: 1rem;
+    border: 1px solid black;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.actualScore {
+    height: 5rem;
+    width: 15rem;
+    padding: 1rem;
+    border: 1px solid turquoise;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+button {
+    height: 4.0rem;
+    width: 4.0rem;
+    border: 0px;
+}
+
+#red-crystal {
+    background-image: url(../../assets/images/Red_Gem_PNG_Clip_Art_Image.png)
+}
+
+#yellow-crystal {
+    background-image: url(../../assets/images/Yellow_Gem_PNG_Clip_Art_Image.png)
+}
+#green-crystal {
+    background-image: url(../../assets/images/Green_Gem_PNG_Clip_Art_Image.png)
+}
+#blue-crystal {
+    background-image: url(../../assets/images/Blue_Gem_PNG_Clip_Art_Image.png)
+}

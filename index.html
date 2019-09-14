@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crystal Guess Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="reset" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    <div class="outerContainer">
+
+        <header>
+            Crystals Collector Game!
+        </header>
+
+        <div class="instructionContainer">
+            <p>
+                You will be given a random number at the start of the game.
+                <br><br>
+                There are four cystals below. By clicking on a crystal you will add a specific amount of points to your
+                total score.
+                <br><br>
+                You win the game by matching your total score to a random mumber. You lose the game if your total score
+                goes above the random number.
+                <br><br>
+                The value of each crystal is hidden from you until you click on it.
+                <br><br>
+                Each time the game starts, the game will change the values of each crystal.</p>
+
+        </div>
+        <div class="goalBox">
+            <span id = "goalNumber">0</span>
+        </div>
+        <div class="winLossBox">
+            <p>Wins: <span id = "winNumber">0</span></p>
+            <p>Losses:<span id = "lossNumber">0</span></p>
+        </div>
+        <div class=buttonContainer>
+            <button id="red-crystal" class="crystal"></button>
+            <button id="yellow-crystal" class="crystal"></button>
+            <button id="green-crystal" class="crystal"></button>
+            <button id="blue-crystal" class="crystal"></button>
+        </div>
+
+        <div class="yourScoreIs">
+            Your Total Score is:
+        </div>
+
+        <div class="actualScore">
+            <span id="yourScore">0</span>
+        </div>
+
+    </div>
+
+    <footer class="footer">
+
+    </footer>
+
+    <script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
