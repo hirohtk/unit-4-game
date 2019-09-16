@@ -6,18 +6,19 @@ body {
 .outerContainer {
     height: 54rem;
     width: 80rem; 
-    border : 1px solid red;
+    
     margin: 0 auto;
     padding: 1rem;
 }
 
 header {
-    height: 3rem;
-    width: 20rem;
+    height: 2rem;
+    width: 21rem;
     border: 1px solid orange;
     padding: 1rem;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
+    font-size: 2rem;
 }
 
 .instructionContainer {
@@ -37,6 +38,7 @@ header {
     padding: 1rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    font-size: 1.5rem;
 }
 
 .winLossBox {
@@ -57,27 +59,30 @@ header {
     padding: 1rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    padding
+    width: 17rem;
+    
 }
 
 .yourScoreIs {
-    height: 2rem;
-    width: 15rem;
-    padding: 1rem;
-    border: 1px solid black;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-.actualScore {
     height: 5rem;
     width: 15rem;
     padding: 1rem;
-    border: 1px solid turquoise;
+    border: 1px solid turquoise; 
     margin-top: 1rem;
     margin-bottom: 1rem;
+    font-size: 1.5rem;
 }
 
+/*.actualScore {
+    height: 5rem;
+    width: 15rem;
+    padding: 1rem;
+    border: 1px solid turquoise; 
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+*/
 button {
     height: 4.0rem;
     width: 4.0rem;
@@ -87,7 +92,6 @@ button {
 #red-crystal {
     background-image: url(../../assets/images/Red_Gem_PNG_Clip_Art_Image.png)
 }
-
 #yellow-crystal {
     background-image: url(../../assets/images/Yellow_Gem_PNG_Clip_Art_Image.png)
 }
